@@ -1,0 +1,40 @@
+Answers the following git commands:
+
+1. Command to initialize git repository
+=> git init
+
+2. Command to clone remote repository
+=> git clone https://github.com/jainil15/gitAssignment.git
+
+3. Command to stage all changes
+=> git add .
+
+4. Command to view state of working directory and staging area
+=> git status
+
+5. Command to create new branch
+=> git branch new_branch
+
+6. Command to change branch
+=> git checkout new_branch
+
+7. Command to clean staging area
+=> git reset
+
+8. Command to get commits and changes from remote branch (It should not merge changes in current branch).
+=> git fetch origin master
+
+9. Command to get commits and changes from remote branch (It should merge changes in current branch).
+=> git pull origin
+
+10. Command to cherry pick commit which SHA => 092018283103810930
+=> git cherry-pick 092018283103810930
+
+11. Command to push branch
+=> git push -u origin new_branch
+
+12. Command to delete remote branch
+=> git push origin -d new_branch
+
+13. Command to do iterative rebase
+=> git rebase -i HEAD~n
